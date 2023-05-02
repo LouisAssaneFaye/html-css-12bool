@@ -30,11 +30,30 @@
     height: 100%;
 }
 
+
 div.blue{
     background-color: #2b93ee;
     height: 30px;
     margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+div.container-blue{
+    width: 90%;
+    height: 80%;
+    display: flex;
+}
+
+div.container-blue>div{
+    height: 85%;
+    background-color: green;
+    margin: 1px;
+}
+
+
+
 
 [class^="col-"]{
     flex: 0 0 auto;
